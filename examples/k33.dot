@@ -1,0 +1,18 @@
+graph "nonplanar" {
+    node [shape="circle", fontname="Helvetica", width="0.45", fixedsize="true"];
+    "1" [pos="0.00,240.00!"];
+    "2" [pos="207.85,120.00!"];
+    "3" [pos="207.85,-120.00!"];
+    "4" [pos="0.00,-240.00!"];
+    "5" [pos="-207.85,-120.00!"];
+    "6" [pos="-207.85,120.00!"];
+    "1" -- "4" [color="#1f8a5f"];
+    "1" -- "5" [color="#1f8a5f"];
+    "1" -- "6" [color="#1f8a5f"];
+    "2" -- "4" [color="#1f8a5f"];
+    "2" -- "5" [color="#1f8a5f"];
+    "2" -- "6" [color="#1f8a5f"];
+    "3" -- "4" [color="#c0392b", penwidth=3];
+    "3" -- "5" [color="#c0392b", penwidth=3];
+    "3" -- "6" [color="#c0392b", penwidth=3];
+}
